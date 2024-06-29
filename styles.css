@@ -1,0 +1,17 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+}
+
+.output-panel {
+    min-height: 200px;
+}
+
+#outputSentence {
+    font-size: 18px;
+    font-style: italic;
+}

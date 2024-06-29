@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markov Chain Sentence Generator</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-dark text-light">
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="text-center mb-4">Markov Chain Sentence Generator</h1>
+                <textarea id="inputText" class="form-control mb-3" rows="8" placeholder="Enter text here..."></textarea>
+                <div class="form-group">
+                    <label for="numWords">Number of Words:</label>
+                    <input type="number" id="numWords" class="form-control" value="10">
+                </div>
+                <button onclick="generateSentence()" class="btn btn-danger btn-block">Generate Sentence</button>
+            </div>
+            <div class="col-md-6">
+                <div class="output-panel bg-secondary p-4 rounded">
+                    <h4 class="mb-4">Generated Sentence</h4>
+                    <p id="outputSentence" class="text-white"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and custom script -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
